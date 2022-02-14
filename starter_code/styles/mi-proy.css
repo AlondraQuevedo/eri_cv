@@ -1,0 +1,97 @@
+/*DESKTOP-FIRST*/
+/*acomodo de texto y botones*/
+.tb{
+    display: flex;
+    flex-direction: column;
+}
+/*acomodo de seccion*/
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    align-content:flex-start;
+
+}
+
+/*cuadro con texto*/
+.cuad{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background-color: var(--dark-blue);
+    color: white;
+    margin: 0px 300px 5px 305px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+}
+/*cuadro de fondo para sombra*/
+.fon{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    color: white;
+    margin: 5px 300px 5px 300px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+}
+/*acomodo de texto de descripcion*/
+.des{
+    font-style: normal;
+    font-family:var(fontBase);
+    font-size: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15%;
+    text-align: center;
+}
+/*boton proyecto*/
+.btn-pro{
+    display: flex;
+    flex-direction:row;
+    margin: 0px 300px 5px 300px;
+    padding-bottom: 30%;
+    
+}
+/*boton codigo*/
+.btn-cod{
+        display: block;
+        background-color:white;
+        color: var(--dark-blue);
+        border-color: var(--dark-blue);
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*imagen*/
+#im{
+    height: 500px; 
+    width: 900px;
+}
+
+@media screen and (max-width:600px){
+    .sec{
+        flex-direction:column-reverse;
+        width: auto;
+    }
+    .btn-pro{
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+    }
+    .cuad{
+        margin: 0px 100px 5px 105px;
+    }
+    /*cuadro de fondo para sombra*/
+    .fon{
+        margin: 5px 100px 5px 100px;
+    }
+    #im{
+        width: auto;
+        height: auto;
+    }
+}

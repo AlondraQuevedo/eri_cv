@@ -1,0 +1,58 @@
+/*DESKTOP-FIRST*/
+/*fondo de los iconos*/
+.cuadro{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-color: var(--dark-blue);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center; 
+}
+/*acomodo de iconos*/
+.icons{
+    width: 300px;
+    display: flex;
+    margin: 0px 300px 5px 300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    align-content:flex-start;
+}
+
+.icofin{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin: 0% 5% 0% 12%;
+    font-size: 225%;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ******************************************** */
+
+/* 
+    es menor < 
+    600px  // telefono celular <--
+    900px  // tableta
+    1200px // computadora
+*/
+@media screen and (max-width:600px){
+.icons{
+    margin: 0px 300px 5px auto;
+}
+.icofin{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.logo{
+    display: none;
+}
+}

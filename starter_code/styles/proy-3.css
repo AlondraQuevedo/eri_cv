@@ -1,0 +1,24 @@
+/*DESKTOP-FIRST*/
+/*acomodo de texto y botones*/
+.acom{
+    display: flex;
+    flex-direction: row;
+}
+/*imagen*/
+#image{
+    height: 500px; 
+    width: 900px;
+}
+
+@media screen and (max-width:600px){
+    .acom{
+        flex-direction:column;
+        width: auto;
+    }
+    
+    #ima{
+        width:auto;
+        height: auto;
+        padding-bottom: 5%;
+    }
+}

@@ -1,0 +1,24 @@
+/*DESKTOP-FIRST*/
+.aco{
+    display: flex;
+    flex-direction:row;
+}
+
+#ima{
+    padding-top: 5%;
+    height: 400px; 
+    width: 600px;
+}
+
+@media screen and (max-width:600px){
+    .aco{
+        flex-direction:column;
+        width: auto;
+    }
+    
+    #ima{
+        width: 400px;
+        height: 200px;
+        padding-bottom: 5%;
+    }
+}

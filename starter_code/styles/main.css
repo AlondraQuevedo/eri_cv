@@ -1,0 +1,32 @@
+/*    MEDIA QUERIES:
+        sirven para definir estilos diferentes dispositivos
+*/
+/*IMPORTAMOS ABOUT-ME*/
+@import url(./about-me.css);
+@import url(./iconos.css);
+@import url(./intro.css);
+@import url(mi-proy.css);
+@import url(comentario-eri.css);
+@import url(proy-2.css);
+@import url(proy-3.css);
+
+/*en root solo se decaran variables --variable:*/
+/*variables globales, puedes llamarlas desde otros archivos*/
+:root{
+    --fontBase:'Poppins', sans-serif;
+    --dark-blue: #310A90;
+}
+
+html{
+    height: auto;
+}
+
+body{
+    font-family: var(--fontBase);
+    color: var(--dark-blue);
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    font-weight: 900;
+}
+
+
