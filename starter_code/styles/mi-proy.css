@@ -1,11 +1,11 @@
 /*DESKTOP-FIRST*/
 /*acomodo de texto y botones*/
-.tb{
+.texto-btn{
     display: flex;
     flex-direction: column;
 }
 /*acomodo de seccion*/
-.sec{
+.acomodo-seccion{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,7 +15,7 @@
 }
 
 /*cuadro con texto*/
-.cuad{
+.cuadro-titulo-1{
     position: absolute;
     width: auto;
     height: auto;
@@ -27,7 +27,7 @@
     font-size: 150%;
 }
 /*cuadro de fondo para sombra*/
-.fon{
+.fondo-1{
     position: absolute;
     width: auto;
     height: auto;
@@ -39,7 +39,7 @@
     font-size: 150%;
 }
 /*acomodo de texto de descripcion*/
-.des{
+.descripcion-1{
     font-style: normal;
     font-family:var(fontBase);
     font-size: 30px;
@@ -52,7 +52,7 @@
     text-align: center;
 }
 /*boton proyecto*/
-.btn-pro{
+.btn-proyecto{
     display: flex;
     flex-direction:row;
     margin: 0px 300px 5px 300px;
@@ -60,7 +60,7 @@
     
 }
 /*boton codigo*/
-.btn-cod{
+.btn-codigo{
         display: block;
         background-color:white;
         color: var(--dark-blue);
@@ -68,29 +68,29 @@
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /*imagen*/
-#im{
+#imagen-2{
     height: 500px; 
     width: 900px;
 }
 
 @media screen and (max-width:600px){
-    .sec{
+    .acomodo-seccion{
         flex-direction:column-reverse;
         width: auto;
     }
-    .btn-pro{
+    .btn-proyecto{
         display: flex;
         flex-direction:column;
         margin: auto;
     }
-    .cuad{
+    .cuadro-titulo-1{
         margin: 0px 100px 5px 105px;
     }
     /*cuadro de fondo para sombra*/
-    .fon{
+    .fondo-1{
         margin: 5px 100px 5px 100px;
     }
-    #im{
+    #imagen-2{
         width: auto;
         height: auto;
     }

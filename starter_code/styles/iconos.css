@@ -1,6 +1,6 @@
 /*DESKTOP-FIRST*/
 /*fondo de los iconos*/
-.cuadro{
+.cuadro-icono{
     width: 20px;
     height: 20px;
     background-color: white;
@@ -14,7 +14,7 @@
     justify-content: center; 
 }
 /*acomodo de iconos*/
-.icons{
+.iconos{
     width: 300px;
     display: flex;
     margin: 0px 300px 5px 300px;
@@ -24,11 +24,20 @@
     align-content:flex-start;
 }
 
-.icofin{
+.iconos-fin{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
 }
-.logo{
+.pie-pagina{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0% 0% 0% 25%;
+    
+}
+.logo-2{
     display: flex;
     margin: 0% 5% 0% 12%;
     font-size: 225%;
@@ -45,14 +54,14 @@
     1200px // computadora
 */
 @media screen and (max-width:600px){
-.icons{
+.iconos{
     margin: 0px 300px 5px auto;
 }
-.icofin{
+.iconos-fin{
     display: flex;
     flex-direction: column-reverse;
 }
-.logo{
+.logo-2{
     display: none;
 }
 }

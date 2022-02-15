@@ -1,6 +1,6 @@
 /*DESKTOP-FIRST*/
 /*configuracion de texto general*/
-#p1{
+#intro-1{
     color: var(--dark-blue);
     font-style: normal;
     font-family:var(fontBase);
